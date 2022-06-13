@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary: #24263b;
+    --secondary: #1f2235;
+    --ternary: #ffb401;
+}
+/* ====================================================== */
+/* header section CSS Start */
+
+#topHeader{
+    background: var(--primary);
+}
+.container{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#topHeader .logo {
+    margin: 25px 0;
+}
+.logo i {
+    font-size: 27px;
+    color: var(--ternary);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logo i:hover{
+    color: #fff;
+}
+.logo > span {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 300;
+}
+.navSection .active{
+    color: var(--ternary) !important;
+
+}
+.navSection {
+    margin: 20px 0px;
+}
+.navSection a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 11px;
+    padding: 0px 7px;
+    display: inline-block;
+    margin: 15px 0;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    transition: 0.3s ease;
+}
+.navSection a:hover {
+    color: var(--ternary);
+}
+button.cv-Btn {
+    font-size: 13px;
+    padding: 12px 15px;
+    background: var(--ternary);
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+button.cv-Btn:hover{
+    color: #fff;
+    background: var(--secondary);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* END */
+
+/* <<<<===========================================================>>>> */
+
+/* Hero Section CSS Start */
+
+.leftHeroSection {
+    width: 55%;
+    position: absolute;
+    background-color: var(--primary);
+}
+.heroContentSection h5, h1, p {
+    color: #fff;
+}
+.heroContentSection h5 {
+    padding-bottom: 15px;
+    letter-spacing: 1.5px;
+    padding-left: 35px;
+    color: #bfbfbf;
+}
+.heroContentSection h1 {
+    font-size: 37px;
+    padding-left: 33px;
+    padding-bottom: 25px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+}
+.heroContentSection p {
+    padding-left: 35px;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: #bfbfbf;
+}
+.heroContentSection h1 > span {
+    color: var(--ternary);
+}
+.heroImg {
+    position: relative;
+    overflow: hidden;
+    
+margin-bottom: 97px;}
+.heroImg img {
+    height: 464px;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    margin-left: -250px;
+}
+.heroContentSection {
+    width: 70%;
+    position: absolute;
+    margin-top: -390px;
+    margin-left: 75%;
+}
+.heroButtonSection {
+    margin-left: 35px;
+}
+button.hireMe {
+    font-size: 13px;
+    padding: 12px 37px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: none;
+    outline: none;
+    background: var(--ternary);
+    font-weight: 600;
+    border-radius: 3px;
+    transition: 0.3s ease;
+}
+button.hireMe:hover{
+    color: #fff;
+    background: var(--secondary);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.heroButtonSection i {
+    font-size: 13px;
+    background: var(--primary);
+    padding: 12px 17px;
+    margin-left: 15px;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.heroButtonSection i:hover{
+    background: var(--ternary);
+    color: var(--primary);
+}
+.heroRightSection {
+    float: right;
+    height: 565px;
+    background: var(--secondary) !important;
+    width: 610px;
+}
+
+
+/* END */
+
+/* <<<========================================================>>> */
+
+/* ABOUT ME CSS Start */
+
+
+.aboutMe {
+    background: var(--primary);
+    padding-bottom: 80px;
+}
+.leftAbout{
+    width: 56.7%;
+}
+.leftAbout i {
+    color: var(--ternary);
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+.award {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 45px;
+    background: var(--secondary);
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 160px;
+    width: 210px; 
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.projects {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 35px;
+    background: var(--secondary);
+    display: block;
+    margin: -100px 100px;
+    width: 295px;
+    margin-left: 115px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.aboutImg {
+    width: 65%;
+    overflow: hidden;
+    height: 330px;
+    background: var(--secondary);
+    margin: 115px 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.aboutImg img {
+    position: relative;
+    width: 100%;
+}
+.rightAbout {
+    width: 50%;
+    padding-top: 55px;
+}
+.rightAbout a {
+    color: #bfbfbf;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 25px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    letter-spacing: 0.5px;
+}
+.rightAbout h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    word-spacing: 7.5px;
+    margin-bottom: 20px;
+}
+.rightAbout p {
+    color: #bfbfbf;
+    font-size: 13px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+.aboutBio{
+    display: flex;
+}
+.leftBio {
+    font-size: 14px;
+    width: 250px;
+    margin: 20px 0px;
+}
+.leftBio > span {
+    color: #fff;
+    display: block;
+}
+.rightBio {
+    width: 275px;
+    margin: 20px 0;
+    margin-left: 35px;
+    color: #fff;
+}
+.rightBio > span {
+    font-size: 14px;
+    display: block;
+}
+button.contactMe {
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: var(--ternary);
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+button.contactMe:hover{
+    color: #fff;
+    background: var(--secondary);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
